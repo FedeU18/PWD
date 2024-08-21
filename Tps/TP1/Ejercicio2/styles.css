@@ -1,0 +1,18 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: darkcyan;
+}
+input {
+  margin-bottom: 1rem;
+}
