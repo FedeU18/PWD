@@ -14,11 +14,14 @@ class Login
     $clave = $metodo["clave"];
     $login = false;
 
-    foreach ($cuentasDePrueba as $cuenta) {
-      if ($cuenta["usuario"] === $usuario && $cuenta["clave"] === $clave) {
+    $i = 0;
+    while ($i < count($cuentasDePrueba) && !$login) {
+      if ($cuentasDePrueba[$i]["usuario"] === $usuario && $cuentasDePrueba[$i]["clave"] === $clave) {
         $login = true;
       }
+      $i++;
     }
+
     if ($login) {
       header("Location: ../bienvenido.php");
       exit;

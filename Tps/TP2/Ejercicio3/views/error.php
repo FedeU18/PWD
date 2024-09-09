@@ -14,7 +14,7 @@
 <body class="bg-dark d-flex flex-column text-danger">
   <h1>Error:</h1>
   <p>Usuario o contraseña incorrecta</p>
-  <a href="./formulario.php">Volver </a>
+  <a href="./formulario.php" class="p-1 pl-3 pr-3 border rounded border-secondary bg-light">Volver</a>
 </body>
 
 </html>
