@@ -212,7 +212,7 @@ class Persona
         }
       }
     } else {
-      $this->setmensajeoperacion("Tabla->listar: " . $base->getError());
+      $this->setmensajeoperacion("Persona->listar: " . $base->getError());
     }
 
     return $arreglo;
