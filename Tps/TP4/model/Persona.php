@@ -177,7 +177,7 @@ class Persona
     $sql = "DELETE FROM persona WHERE NroDni=" . $this->getNroDNI();
     if ($base->Iniciar()) {
       if ($base->Ejecutar($sql)) {
-        return true;
+        $resp = true;
       } else {
         $this->setmensajeoperacion("Persona->eliminar: " . $base->getError());
       }
