@@ -87,7 +87,7 @@ class PersonaController
     $where = " true ";
     if ($param <> null) {
       if (isset($param["NroDni"])) {
-        $where .= " AND NroDni =" . $param["NroDni"];
+        $where .= " AND NroDni = '" . $param["NroDni"] . "'";
       }
     }
     $objPersona = new Persona();

@@ -85,7 +85,7 @@ class AutoController
     $where = " true ";
     if ($param <> NULL) {
       if (isset($param['Patente']))
-        $where .= " AND Patente =" . $param['Patente'];
+        $where .= " AND Patente = '" . $param['Patente'] . "'";
     }
     $objAuto = new Auto();
     $arreglo = $objAuto->listar($where);
