@@ -10,7 +10,8 @@
 <body>
   <a href="./VerAutos.php">Ver Autos</a>
   <a href="./VerPersonas.php">Ver Personas</a>
-  <a href="./BuscarPersona.php">BuscarPersona</a>
+  <a href="./BuscarPersona.php">Buscar Persona</a>
+  <a href="./BuscarAuto.php">Buscar Auto</a>
   <a href="./CambiarDuenio.php">Cambiar Dueño</a>
   <a href="./NuevoAuto.php">Crear Auto</a>
   <a href="./NuevaPersona.php">Crear Persona</a>
