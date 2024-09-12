@@ -1,6 +1,6 @@
 <?php
 
-class AbmPersona
+class PersonaController
 {
   private function cargarObjeto($param)
   {
